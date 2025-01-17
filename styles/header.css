@@ -36,6 +36,7 @@ header div {
   text-transform: uppercase;
   font-family: "Exo", serif;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 .header-text h1:hover {
@@ -53,6 +54,9 @@ header div {
   font-size: 1.2rem;
 }
 
-.header-image img {
-  width: 100%;
+.header-image {
+  background-image: url(https://media.newyorker.com/photos/67898492a20fb9e9edbde181/2:2/w_640,c_limit/Witt-Altadena-Thalia-Gochez-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -6,17 +6,23 @@
 }
 
 .first-section h2 {
-  font-size: 1.75rem;
+  font-size: 1.95rem;
   font-family: "Exo", serif;
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 3rem;
 }
 
 .first-section .items-container {
   display: flex;
   justify-content: space-around;
   font-family: "Times New Roman", Times, serif;
+  overflow-x: auto;
+}
+
+.first-section .items-container a {
+  text-decoration: none;
 }
 
 .first-section .items-container div {
@@ -24,7 +30,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
 }
 
 .first-section .items-container div::after {
@@ -34,25 +39,49 @@
   right: 0;
   width: 0;
   height: 49%;
-  border-right: 1px solid lightgray;
 }
 
-.first-section .items-container div:last-child::after {
+.first-section .items-container .item-img {
+  padding: 0 1rem;
+  border-right: 1px solid lightgrey;
+  min-width: 200px;
+}
+
+.first-section .items-container div:nth-last-child(1) .item-img {
   border-right: none;
 }
 
-.first-section .items-container div img {
+.first-section .items-container .item-img img {
   width: 100%;
 }
 
-.first-section .items-container div h3 {
+.first-section .items-container .item-text {
+  padding: 0 1rem;
+  min-width: 200px;
+}
+
+.first-section .items-container .item-text h3 {
   margin: 15px 0 0 0;
+  color: black;
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.8rem;
 }
 
-.first-section .items-container div p {
+.first-section .items-container .item-text h3:hover {
+  text-decoration: underline;
+}
+
+.first-section .items-container .item-text p {
+  color: rgb(75, 75, 75);
   font-size: 1.1rem;
   line-height: 1.7rem;
+}
+
+.first-section .items-container .item-text span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: -5px;
+  color: black;
 }
