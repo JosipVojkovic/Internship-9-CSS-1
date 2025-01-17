@@ -1,0 +1,88 @@
+.third-section {
+  padding: 0rem 4rem;
+}
+
+.third-section h2 {
+  font-size: 1.95rem;
+  font-family: "Exo", serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.third-section p {
+  font-style: italic;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.third-section .games-container {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.games-item {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 1.6rem;
+}
+
+.games-item h3 {
+  font-family: "Exo", serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.games-item p {
+  font-style: normal;
+  font-size: 1.05rem;
+  color: rgb(75, 75, 75);
+}
+
+.games-item img {
+  margin-top: 3rem;
+  width: 200px;
+}
+
+.games-item span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: -5px;
+  margin-top: 3rem;
+}
+
+.games-item span a {
+  text-decoration: none;
+  color: black;
+}
+
+.games-item span a:hover {
+  text-decoration: underline;
+}
+
+.games-container .games-item:nth-of-type(1) {
+  background-color: rgb(132, 201, 255);
+}
+
+.games-container .games-item:nth-of-type(2) {
+  background-color: rgb(165, 232, 253);
+}
+
+.games-container .games-item:nth-of-type(3) {
+  background-color: rgb(255, 239, 185);
+}
+
+.games-container .games-item:nth-of-type(4) {
+  background-color: rgb(246, 246, 246);
+}

@@ -80,6 +80,7 @@
   align-items: center;
   justify-content: center;
   column-gap: 0.5rem;
+  cursor: pointer;
 }
 
 .second-section-text .listen-text {
