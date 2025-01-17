@@ -1,0 +1,58 @@
+.first-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  overflow-x: auto;
+}
+
+.first-section h2 {
+  font-size: 1.75rem;
+  font-family: "Exo", serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+
+.first-section .items-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.first-section .items-container div {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.first-section .items-container div::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 0;
+  height: 49%;
+  border-right: 1px solid lightgray;
+}
+
+.first-section .items-container div:last-child::after {
+  border-right: none;
+}
+
+.first-section .items-container div img {
+  width: 100%;
+}
+
+.first-section .items-container div h3 {
+  margin: 15px 0 0 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.first-section .items-container div p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
