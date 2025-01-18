@@ -60,3 +60,23 @@ header div {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 760px) {
+  header {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .header-text {
+    padding: 2rem 1rem;
+    height: 400px;
+  }
+
+  .header-text-box {
+    width: 100%;
+  }
+
+  .header-image {
+    height: 300px;
+  }
+}

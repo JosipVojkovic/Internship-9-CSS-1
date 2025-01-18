@@ -1,5 +1,6 @@
 .third-section {
   padding: 0rem 4rem;
+  margin-bottom: 60px;
 }
 
 .third-section h2 {
@@ -85,4 +86,24 @@
 
 .games-container .games-item:nth-of-type(4) {
   background-color: rgb(246, 246, 246);
+}
+
+@media screen and (max-width: 1200px) {
+  .third-section {
+    padding: 0rem 1rem;
+  }
+
+  .third-section .games-container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .games-item {
+    flex-direction: row;
+  }
+
+  .games-item img {
+    margin-top: 0;
+    width: 150px;
+  }
 }

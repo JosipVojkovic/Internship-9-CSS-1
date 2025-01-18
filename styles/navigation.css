@@ -17,6 +17,8 @@ nav h1 {
 
 nav h1 span {
   font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -62,4 +64,21 @@ nav a {
 
 .nav-hamburger-menu {
   flex: 1;
+}
+
+.nav-hamburger-menu i {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-links ul,
+  .nav-links button,
+  .nav-links a {
+    display: none;
+  }
+
+  .nav-hamburger-menu i {
+    display: block;
+  }
 }

@@ -1,8 +1,9 @@
 .first-section {
   display: flex;
   flex-direction: column;
-  padding: 1rem 3rem;
-  overflow-x: auto;
+  padding: 0rem 3rem 0 3rem;
+  position: relative;
+  min-height: 100vh;
 }
 
 .first-section h2 {

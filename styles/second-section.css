@@ -4,7 +4,6 @@
 
 .second-section {
   display: flex;
-  flex-wrap: wrap;
   height: 600px;
   padding: 0rem 4rem;
   margin: 4rem 0;
@@ -87,4 +86,20 @@
   color: white;
   line-height: 1rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+  .second-section {
+    flex-direction: column;
+    min-height: 800px;
+    padding: 2rem 0 0 0;
+  }
+
+  .second-section-image {
+    flex: 2;
+  }
+
+  .second-section-text {
+    padding: 2rem;
+  }
 }
